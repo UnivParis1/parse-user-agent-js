@@ -19,7 +19,7 @@ function ua_to_name_version(ua) {
     return resp
 }
 
-function get_browser_info(ua) {
+function parse_user_agent(ua) {
     let resp = ua_to_name_version(ua)
     let clean_ua = ua
         .replace(/^Mozilla[/]5[.]0 /, '')
@@ -63,5 +63,5 @@ function get_browser_info(ua) {
 }
 
 if (typeof module === "object" && typeof module.exports === "object") {
-    module.exports = get_browser_info
+    module.exports = parse_user_agent
 }
