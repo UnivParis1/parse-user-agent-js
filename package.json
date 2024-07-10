@@ -1,0 +1,12 @@
+{
+  "name": "parse-user-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnivParis1/parse-user-agent-js.git"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/UnivParis1/parse-user-agent-js#readme"
+}
